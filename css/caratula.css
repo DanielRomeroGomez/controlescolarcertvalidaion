@@ -1,0 +1,841 @@
+body {
+    font-size: 12.5px;
+    font-family: Arial;
+    background-image: url("https://www.edomex.gob.mx/cert/validacion/css/img/fondo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size:contain;*/
+    background-size: 100%;
+    background-position-y: bottom;
+    /*font-size: medium;*/
+}
+
+
+iframe {
+    border: none;
+}
+
+.micontainer {
+    position: absolute;
+    text-align: center;
+}
+
+.menu {
+    float: left;
+    width: 100%;
+    height: 90px;
+}
+
+.mainContent {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.supRedondo {
+    border-radius: 23px 24px 23px 24px;
+    -moz-border-radius: 23px 24px 23px 24px;
+    -webkit-border-radius: 23px 24px 23px 24px;
+    border: 0px solid #00FF00;
+    background-color: #f1f8f1;
+    margin: auto;
+}
+
+.supRedondo1 {
+    border-radius: 23px 24px 23px 24px;
+    -moz-border-radius: 23px 24px 23px 24px;
+    -webkit-border-radius: 23px 24px 23px 24px;
+    border: 0px solid #00FF00;
+    background-color: white;
+    margin: auto;
+}
+
+.caja, .et {
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.caja {
+    border-radius: 4px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.et {
+    border-radius: 23px;
+    font-weight: bold;
+    color: #555;
+    background-color: #00FF00;
+}
+
+.cmp {
+    border-radius: 23px 24px 23px 24px;
+    -moz-border-radius: 23px 24px 23px 24px;
+    -webkit-border-radius: 23px 24px 23px 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 170px 80px;
+    background-color: #98EE60;
+    padding-left: 9px;
+    /*color: white;*/
+    font-weight: 700;
+    height: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cmp_btn {
+    border-radius: 23px 24px 23px 24px;
+    -moz-border-radius: 23px 24px 23px 24px;
+    -webkit-border-radius: 23px 24px 23px 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 170px 80px;
+    background-color: #98EE60;
+    padding-left: 9px;
+    /*color: white;*/
+    font-weight: 700;
+}
+
+.cmp_lbl {
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.titGral {
+    border-radius: 20px 20px;
+    background-color: #8D1BAE;
+    color: #ffffff;
+}
+
+.en1 {
+    font-family: Arial;
+    font-size: 20px;
+    color: #000000;
+}
+
+.en2 {
+    font-family: Arial;
+    font-size: 16px;
+    color: #000000;
+}
+
+.en1min {
+    font-family: Arial;
+    font-size: 16px;
+    color: #000000;
+}
+
+.en2min {
+    font-family: Arial;
+    font-size: 12px;
+    color: #000000;
+}
+
+.caja_sombra {
+    background-color: white;
+}
+
+.btn_sombra, .caja_sombra {
+    box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.75);
+    border-radius: 13px 13px 13px 13px;
+    -moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.75);
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.75);
+    -webkit-border-radius: 13px 13px 13px 13px;
+}
+
+.mimenu {
+    font-family: Gotham;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.notama, .notroj {
+    color: black;
+    font-family: Arial;
+    font-size: small;
+    font-weight: 600;
+    vertical-align: middle;
+    text-align: center;
+    height: 18px;
+    width: 18px;
+}
+
+.notama {
+    background: url(https://www.edomex.gob.mx/cert/validacion/css/img/a_mini.png);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25px;
+    right: 40px;
+}
+
+.notroj {
+    background: url(https://www.edomex.gob.mx/cert/validacion/css/img/r_mini.png);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.midiv {
+    margin: auto;
+}
+
+.rengmed {
+    height: 10px;
+}
+
+.mbnegro, .mbrojo, .mbazul, .mbverde, .mbrosa {
+    border: solid;
+}
+
+.mbverde {
+    border-color: green;
+}
+
+.mbnegro {
+    border-color: black;
+}
+
+.mbrojo {
+    border-color: red;
+}
+
+.mbazul {
+    border-color: blue;
+}
+
+.mbrosa {
+    border-color: pink;
+}
+
+.mhr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.vcenter /* Aplicarse al Div completo*/ {
+    line-height: 33px;
+}
+
+.datepicker {
+    z-index: 1151 !important;
+}
+
+#dialog .modal-body {
+    overflow: visible;
+}
+
+.en1ok, .en2ok, .enmin1ok, .enmin2ok {
+    font-family: Arial,Verdana;
+    color: #000;
+}
+
+.en1ok {
+    font-size: 16px;
+    margin-left: 140px;
+}
+
+.en2ok {
+    font-size: 14px;
+    margin-left: 140px;
+}
+
+.enmin1ok {
+    font-size: 16px;
+    margin-left: 70px;
+}
+
+.enmin2ok {
+    font-size: 12px;
+    margin-left: 55px;
+}
+
+.sinbor {
+    border: none;
+    border-color: transparent;
+    border-style: none;
+}
+
+.enFond {
+    background-image: url(https://www.edomex.gob.mx/cert/validacion/css/img/greploid.png);
+    background-repeat: repeat-x;
+    border-spacing: 0;
+    border: none;
+    height: 92px;
+}
+
+.enFondmin {
+    background-image: url(https://www.edomex.gob.mx/cert/validacion/css/img/greploid_min.png);
+    background-repeat: repeat-x;
+    border-spacing: 0;
+    border: none;
+    height: 92px;
+}
+
+.enImgLog2 {
+    background-image: url(https://www.edomex.gob.mx/cert/validacion/css/img/ICONO-01.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.enImgLog2Adultos {
+    background-image: url(https://www.edomex.gob.mx/cert/validacion/css/img/ICONO-Adultos.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.enImg1, .enImg2, .enImg1G, .enImg2G {
+    background-repeat: no-repeat;
+    /*background-position:center;*/
+}
+
+.enImg1 {
+    background-image: url(https://www.edomex.gob.mx/cert/validacion/css/img/fondoheader_sistemaswebSN.png);
+}
+
+.enImg1G {
+    /* background-image: url(img/fondoheader_sistemasweb.png);*/
+    background-image: url(https://www.edomex.gob.mx/cert/validacion/css/img/h1_0.png);
+    background-size: cover;
+}
+
+.enImg2 {
+    background-image: url(https://www.edomex.gob.mx/cert/validacion/css/img/fondoheader_cSN.png);
+}
+
+.enImg2G {
+    /*background-image: url(img/fnd_hdr_300x60.jpg);*/
+    background-image: url(https://www.edomex.gob.mx/cert/validacion/css/img/hm1_0.png);
+    background-size: cover;
+}
+
+
+
+#inferior {
+    color: #FFF;
+    background: #505152 none repeat scroll 0% 0%;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 65px;
+    z-index: 0;
+    font-family: Arial,Verdana;
+    font-size: 11px;
+}
+
+.txtmed {
+    font-size: 10px;
+}
+
+.txtmin {
+    font-size: 10px;
+}
+
+
+/*CODIGO PARA EL NAVBAR COLORES*/
+.navbar-default {
+    background-color: #693c88;
+    border-color: #8e44ad;
+}
+
+    .navbar-default .navbar-brand {
+        color: #ffffff;
+    }
+
+        .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+            color: #ecdbff;
+        }
+
+    .navbar-default .navbar-text {
+        color: #ffffff;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #ffffff;
+    }
+
+        .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+            color: #ecdbff;
+        }
+
+    .navbar-default .navbar-nav > li > .dropdown-menu {
+        background-color: #693c88;
+    }
+
+        .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+            color: #ffffff;
+        }
+
+            .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+            .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+                color: #ecdbff;
+                background-color: #8e44ad;
+            }
+
+        .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+            background-color: #693c88;
+        }
+
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+        color: #ecdbff;
+        background-color: #8e44ad;
+    }
+
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+        color: #ecdbff;
+        background-color: #8e44ad;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: #8e44ad;
+    }
+
+        .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+            background-color: #8e44ad;
+        }
+
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #ffffff;
+        }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: #ffffff;
+    }
+
+    .navbar-default .navbar-link {
+        color: #ffffff;
+    }
+
+        .navbar-default .navbar-link:hover {
+            color: #ecdbff;
+        }
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: #ecdbff;
+        }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #ecdbff;
+        background-color: #8e44ad;
+    }
+}
+/*AQUI TERMINA EL CODIGO PARA NAVBAR*/
+
+.mycajadiv {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.b {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #EEEEEC;
+    text-align: right;
+    height: 31px;
+}
+
+.alerta {
+    font-size: 14px;
+    color: #E00;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* JUSTIFICACIONES PROBANDO */
+
+.text-left-not-xs, .text-left-not-sm, .text-left-not-md, .text-left-not-lg {
+    text-align: left;
+}
+
+.text-center-not-xs, .text-center-not-sm, .text-center-not-md, .text-center-not-lg {
+    text-align: center;
+}
+
+.text-right-not-xs, .text-right-not-sm, .text-right-not-md, .text-right-not-lg {
+    text-align: right;
+}
+
+.text-justify-not-xs, .text-justify-not-sm, .text-justify-not-md, .text-justify-not-lg {
+    text-align: justify;
+}
+
+@media (max-width: 767px) {
+    .text-left-not-xs, .text-center-not-xs, .text-right-not-xs, .text-justify-not-xs {
+        text-align: inherit;
+    }
+
+    .text-left-xs {
+        text-align: left;
+        background-color: #FFF;
+        font-size: 13px;
+    }
+
+    .text-center-xs {
+        text-align: center;
+    }
+
+    .text-right-xs {
+        text-align: right;
+    }
+
+    .text-justify-xs {
+        text-align: justify;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .text-left-not-sm, .text-center-not-sm, .text-right-not-sm, .text-justify-not-sm {
+        text-align: inherit;
+    }
+
+    .text-left-sm {
+        text-align: left;
+    }
+
+    .text-center-sm {
+        text-align: center;
+    }
+
+    .text-right-sm {
+        text-align: right;
+    }
+
+    .text-justify-sm {
+        text-align: justify;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .text-left-not-md, .text-center-not-md, .text-right-not-md, .text-justify-not-md {
+        text-align: inherit;
+    }
+
+    .text-left-md {
+        text-align: left;
+    }
+
+    .text-center-md {
+        text-align: center;
+    }
+
+    .text-right-md {
+        text-align: right;
+    }
+
+    .text-justify-md {
+        text-align: justify;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text-left-not-lg, .text-center-not-lg, .text-right-not-lg, .text-justify-not-lg {
+        text-align: inherit;
+    }
+
+    .text-left-lg {
+        text-align: left;
+    }
+
+    .text-center-lg {
+        text-align: center;
+    }
+
+    .text-right-lg {
+        text-align: right;
+    }
+
+    .text-justify-lg {
+        text-align: justify;
+    }
+}
+
+.cRojo {
+    border: solid;
+    border-color: red;
+}
+
+.vcenter /* Aplicarse al Div completo*/ {
+    line-height: 33px;
+}
+
+.datepicker {
+    z-index: 1151 !important;
+}
+
+/* CSS PARA GRIDVIEW */
+.mGrid, .mGridmin {
+    width: 100%;
+    background-color: #fff;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+    .mGrid td, .mGridmin td {
+        padding: 2px;
+        border: solid 1px #c1c1c1;
+        color: #717171;
+        /*font-size: 12px;*/
+    }
+
+    .mGrid th, .mGridmin th {
+        padding: 4px 2px;
+        color: #fff;
+        background: #424242 url(https://www.edomex.gob.mx/cert/validacion/css/img/grd_head.png) repeat-x top;
+        border-left: solid 1px #525252;
+        /*font-size: 13px;*/
+    }
+
+    .mGrid .alt, .mGridmin .alt {
+        background: #fcfcfc url(https://www.edomex.gob.mx/cert/validacion/css/img/grd_alt.png) repeat-x top;
+    }
+
+    .mGrid .pgr, .mGridmin .pgr {
+        background: #424242 url(https://www.edomex.gob.mx/cert/validacion/css/img/grd_pgr.png) repeat-x top;
+    }
+
+        .mGrid .pgr table, .mGridmin .pgr table {
+            margin: 5px 0;
+        }
+
+        .mGrid .pgr td, .mGridmin .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #666;
+            font-weight: bold;
+            color: #fff;
+            line-height: 12px;
+        }
+
+        .mGrid .pgr a, .mGridmin .pgr a {
+            color: #666;
+            text-decoration: none;
+        }
+
+            .mGrid .pgr a:hover, .mGridmin .pgr a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+    /* AQUI TERMINA CSS PARA GRID VIEW */
+
+    .mGrid td {
+        font-size: 12px;
+    }
+
+    .mGrid th {
+        font-size: 13px;
+    }
+
+    .mGridmin td {
+        font-size: 10px;
+    }
+
+    .mGridmin th {
+        font-size: 11px;
+    }
+
+
+
+.confirm {
+    position: fixed;
+    left: auto; /* <-- Reset the default left value */
+    right: 10px;
+}
+
+
+
+/*Hoja defs estilo defs evento transicion*/
+
+#masInfo {
+    border: solid 1px silver;
+    width: 180px;
+    height: 220px;
+    padding: 5px;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.7;
+    font-family: Arial,Verdana;
+    font-size: 11px;
+}
+
+#masInfo1 {
+    border: solid 1px silver;
+    width: 250px;
+    height: 75px;
+    /*padding: 1px;*/
+    position: absolute;
+    overflow: initial;
+    opacity: 0.7;
+    font-family: Arial,Verdana;
+    font-size: 10px;
+}
+
+.gi-2x {
+    font-size: 2em;
+}
+
+.gi-3x {
+    font-size: 3em;
+}
+
+.gi-4x {
+    font-size: 4em;
+}
+
+.gi-5x {
+    font-size: 5em;
+}
+
+.icon {
+    height: 20px;
+}
+
+.icon2 {
+    height: 30px;
+}
+
+.icon1 {
+    height: 100px;
+}
+
+.flotante {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+
+/* NUEVOS COLORES DEL MAZO */
+.CoolGray10C {
+    background-color: #64656A;
+    color: white;
+}
+
+.CoolGray7C {
+    background-color: #9A9899;
+}
+
+.p375C {
+    background-color: #97C93F;
+}
+
+.p192C {
+    background-color: #ED1A46;
+}
+
+.p709C {
+    background-color: #F16279;
+}
+
+.p1375C {
+    background-color: #F99E21;
+}
+
+.p116C {
+    background-color: #FBCF0A;
+}
+
+.p2995C {
+    background-color: #16A6DF;
+}
+
+.p526C {
+    background-color: #76308C;
+    color: white;
+}
+
+.p2353C {
+    background-color: #BF5DA4;
+}
+
+.p212C {
+    background-color: #EF4F96;
+}
+
+.TitEnc {
+    font-size: 19px;
+    font-weight: 600;
+    color: #76308C;
+    text-shadow: 3px 3px 3px #BBB;
+}
+
+.SubTitEnc {
+    font-size: 16px;
+    font-weight: 600;
+    color: #64656A;
+    text-shadow: 3px 3px 3px #BBB;
+}
+
+.TitEncMin {
+    font-size: 14px;
+    font-weight: 600;
+    color: #76308C;
+    text-shadow: 2px 2px 2px #BBB;
+}
+
+.SubTitEncMin {
+    font-size: 12px;
+    font-weight: 600;
+    color: #64656A;
+    text-shadow: 2px 2px 2px #BBB;
+}
+
+.Recomendaciones {
+    font-size: 12px;
+    color: #051172;
+}
+
+.Fr25 {
+    height: 25px;
+}
+
+.d25 {
+    height: 100px;
+}
+
+.d15 {
+    height: 35px;
+}
+
+.d10 {
+    height: 10px;
+}
